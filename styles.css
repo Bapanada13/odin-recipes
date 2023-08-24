@@ -4,18 +4,26 @@ body {
   color: rgb(73, 255, 128);
 }
 
-.image {
-  text-align: center;
-}
-
 h1 {
-  font-size: 36px;
+  font-size: 46px;
   text-align: center;
   color: rgb(0, 121, 36);
 }
 
+ul {
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+ol {
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
 li {
   list-style-type: none;
+  padding: 7px 0;
+  margin-right: 1%;
 }
 
 a {
@@ -27,11 +35,52 @@ a {
 
 h2 {
   color: rgb(0, 153, 46);
+  margin-left: 3px;
 }
 h3 {
   color: rgb(0, 182, 54);
+  margin-left: 12px;
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .homepage {
   text-align: right;
+  margin: 20px 1% 0px 0px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.Ingredients {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.Steps {
+  width: 50%;
+  margin-left: 10px;
+}
+
+#Homepage-Links li a{
+  font-size: 40px;
+  margin-left: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+#Homepage-Links li {
+  margin-top: 40px;
+  width: 400px;
+}
+
+#Homepage-Links {
+  margin-top: 50px;
 }
